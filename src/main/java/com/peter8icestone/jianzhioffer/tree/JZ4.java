@@ -23,7 +23,7 @@ public class JZ4 {
     }
 
     static class Solution {
-        public TreeNode reConstructBinaryTree(int[] pre,int[] in) {
+        public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
             return reConstructBinaryTreeWithList(Arrays.stream(pre).boxed().collect(Collectors.toList()),
                     Arrays.stream(in).boxed().collect(Collectors.toList()));
         }
