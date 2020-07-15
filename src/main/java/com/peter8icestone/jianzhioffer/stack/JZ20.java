@@ -6,11 +6,11 @@
  *  注意：保证测试中不会当栈为空的时候，对栈调用pop()或者min()或者top()方法。
  */
 
-package com.peter8icestone.jianzhioffer;
+package com.peter8icestone.jianzhioffer.stack;
 
 import java.util.Stack;
 
-public class stack {
+public class JZ20 {
 
     static class Solution {
 
